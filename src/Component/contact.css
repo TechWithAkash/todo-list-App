@@ -6,5 +6,8 @@
     align-items: center;
     background-color: burlywood;
     border: 2px solid black;
+    max-resolution: 10px;
+    
+
 
 }
