@@ -14,4 +14,5 @@
  }
  else{
     console.log(a," is Odd Number");
+    console.log("The Number Printef Successfully");
  }
