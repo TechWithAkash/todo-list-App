@@ -7,6 +7,7 @@ import { Todos } from './Component/Todos';
 import { Footer } from './Component/Footer';
 import { AddTodo } from './Component/AddTodo';
 import  About  from './Component/About';
+import  contact from './Component/contact';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
@@ -68,8 +69,8 @@ function App() {
 } />
 
           <Route exact path="/about" element={<About />}/>
-            {/* <About /> */}
-          {/* </Route> */}
+          <Route exact path="/contact" element={<contact />}/>
+           
         </Routes>
         </Router >
 
